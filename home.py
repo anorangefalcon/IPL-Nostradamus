@@ -20,7 +20,7 @@ import matplotlib.pyplot
 class frmHome:
     def __init__(self):
         self.frame = tk.Tk()
-        self.frame.title('Home')
+        self.frame.title('IPL Nostradamus')
         self.frame.geometry('1920x1080')
         # self.frame.config(bg = 'grey')
         self.venue = tk.StringVar()
