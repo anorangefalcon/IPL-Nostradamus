@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import PhotoImage
 import pandas as pd
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.linear_model import LogisticRegression
@@ -21,6 +22,11 @@ class frmHome:
     def __init__(self):
         self.frame = tk.Tk()
         self.frame.title('IPL Nostradamus')
+
+        # adds icon on the app window
+        self.nostradamus_icon = PhotoImage(file='/Users/anorangefalcon/Desktop/SPIC ML/IPLmatchPrediction/logosData/logo/nostradamus_logo.png')
+        self.frame.wm_iconphoto(True, self.nostradamus_icon)
+
         self.frame.geometry('1920x1080')
         # self.frame.config(bg = 'grey')
         self.venue = tk.StringVar()
