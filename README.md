@@ -5,7 +5,7 @@ Do you want to know the outcome of the upcoming Indian Premier League match? Loo
 
 You can also visit my blog to learn how I developed skills required for this project: 
 
-https://crowmedia.notion.site/s-six-month-Industrial-Training-541734209b604e97997e5e665447dc93
+https://priyanshu-dhall.notion.site/Week-17-ddf814896c85401f8c7a27259c23f0ef
 
 ## Overview
 
